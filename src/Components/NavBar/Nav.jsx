@@ -3,9 +3,9 @@ import React from 'react';
 const Nav = () => {
     return (
       <div>
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-white  ">
           <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown text-black">
               <div
                 tabIndex={0}
                 role="button"
@@ -29,54 +29,56 @@ const Nav = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                className="menu menu-sm dropdown-content bg-white rounded-box z-1 mt-3 w-52 p-2 shadow"
               >
                 <li>
-                  <a>Item 1</a>
+                  <a>Home</a>
                 </li>
                 <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
+                  <a>FAQ</a>
                 </li>
                 <li>
-                  <a>Item 3</a>
+                  <a>Blog</a>
+                </li>
+                <li>
+                  <a>Download</a>
+                </li>
+                <li>
+                  <a>About</a>
+                </li>
+
+                <li>
+                  <a>Contact</a>
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl">daisyUI</a>
+            <a className="font-bold  text-black btn-ghost text-xl">Ticket</a>
           </div>
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-center text-[#484848] hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Item 1</a>
+                <a>Home</a>
               </li>
               <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
+                <a>FAQ</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Blog</a>
+              </li>
+              <li>
+                <a>Download</a>
+              </li>
+              <li>
+                <a>About</a>
+              </li>
+
+              <li>
+                <a>Contact</a>
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            <a className="btn bg-purple-600">+ New Ticket</a>
           </div>
         </div>
       </div>

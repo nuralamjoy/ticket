@@ -2,4 +2,6 @@
 @plugin "daisyui";
 body{
     background-color: white;
+    padding: 0 40px 0 40px;
+    
 }
